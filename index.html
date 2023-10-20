@@ -1,224 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--<link rel="icon" href="assets/img/favicon.ico"> -->
-    <title>BirdAI blog</title>
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/mediumish.css" rel="stylesheet">
-</head>
-<body>
-
-<!-- Begin Site Title
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<!--<link rel="icon" href="assets/img/favicon.ico"> -->
+		<title>BirdAI blog</title>
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- Fonts -->
+		<link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Righteous"
+			rel="stylesheet"
+		/>
+		<!-- Custom styles for this template -->
+		<link href="assets/css/mediumish.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Begin Site Title
 ================================================== -->
-<div class="container">
-    <div class="mainheading">
-        <h1 class="sitetitle">BirdAI</h1>
-        <p class="lead">
-            Record and save your found birds
-        </p>
-    </div>
+		<div class="container">
+			<div class="mainheading">
+				<h1 class="sitetitle">BirdAI</h1>
+				<p class="lead">
+					BirdAI är en gemensam plattform för att öka intresset av fågelskådning
+					och naturen, både för professionella och amatörer. I webbappen laddas
+					bilder och ljudinspelningar på fågelarter lätt upp för att
+					identifieras av våra AI-modeller. Alla fågelupptäckter sparas i ett
+					personligt hierarkiskt bibliotek med bilder, ljud, information och
+					relaterade fåglar till din upptäckt. Vår vision är att inkludera flera
+					djurgrupper och inkludera en social dimension med ett flöde av vänners
+					identifierade arter.
+				</p>
+			</div>
 
-    <section class="featured-posts" style="width: 100%">
-        <div class="section-title">
-            <h2><span>Sprint 2</span></h2>
-            <h4 class="sitetitle">Övergripande</h4>
-            <h6 class="card-text" style="margin: 10px">
-                Slutfört databasen med bara några små helper metoder som är kvar att implementera. Skapat koppling mellan frontend och backend. Gjort klart authentication i backend. Lyckats kommunicera mellan AI delar med hjälp av en controller som pratar med detection och classification.
-            </h6>
-        </div>
-        <div class="listfeaturedtag">
+			<section class="featured-posts" style="width: 100%">
+				<div class="section-title">
+					<h2><span>Sprint 2</span></h2>
+					<h1 class="card-title">Sprint 2</h1>
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Övergripande</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Frontend:</b> Förbättra existerande design, user page och
+							implementera generellt library. Koppla till backend. Alla sidor
+							för MVP ska finnas men inte vara implementerade.<br />
+							<b>Backend:</b> Koppla upp mot AI-teamet, utöka endpoints till
+							posts och admin och göra klar riktig databas. Implementera
+							ordentliga tester och sätta upp lista på fåglar.<br />
+							<b>AI:</b> Koppla upp mot backend, sammansluta de 2 modellerna,
+							fortsätta forska om ljud samt börja implementera en ljudmodell.
+							<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							Slutfört databasen med bara några små helper metoder som är kvar
+							att implementera. Skapat koppling mellan frontend och backend.
+							Gjort klart authentication i backend. Lyckats kommunicera mellan
+							AI delar med hjälp av en controller som pratar med detection och
+							classification.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
 
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 3</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 1</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Förbereda inför möte 10/10.<br />
+							<b>Frontend</b>: Uppladdningsprocessen för bilder, etablera en
+							http koppling mot backend. Möjligtvis börja med user page.<br />
+							<b>Backend</b>: Göra klar en lätt authentication, implementera
+							riktiga databasen och fortsätta med endpoints samt responses.<br />
+							<b>AI</b>: Sätta ihop modellerna, fortsätta leta efter svenska
+							fågelorganisationer.<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Gått igenom hur endpoints för AI-backend skulle
+							se ut och vilken information som AI-teamet kan skicka tillbaka och
+							vilken information frontend vill presentera. Vi har också haft
+							presentation av projektet på måndagen.<br />
+							<b>Frontend</b>: Fixa alla sidor för MVP finns fast inte
+							implementerade. Hållit på med connection mot backend men har varit
+							problem med JWT. Vi har också jobbat för att göra front-end mer
+							dynamisk.<br />
+							<b>Backend</b>: Implementerat klart interface för databasen och
+							påbörjat med att göra repository för users. Vi har också
+							implementerat authentication med JWT som kommer göra att requests
+							mot backend måste innehålla en säkerhetsnyckel.<br />
+							<b>AI</b>: Merga ihop modellerna genom att kunna kommunicera genom
+							containrar. Svaren är dock inte riktigt klara än men ska bara ta
+							nån dag att fixa. Har mailat till olika fågelorganisationer för
+							att få mer data på svenska fåglar. <br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 2</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Enskilt möte med läraren, skriva
+							delredovisning.<br />
+							<b>Frontend</b>: Finslipa designen mellan sidorna för att skapa en
+							mer enhetlig design.<br />
+							<b>Backend</b>: Implementera media analys endpoints, göra dataset
+							för fåglar, skriva media controller. Påbörja kommunikation mot AI
+							teamet.<br />
+							<b>AI</b>: Arbeta på controllern för kommunikation med backend.
+							<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Enskilt möte med läraren, skriva
+							delredovisning.<br />
+							<b>Frontend</b>: Fixat en sida innan loginsidan som beskriver vad
+							projektet är. Finslipat designen på bibliotekssidan och
+							fåglarna.<br />
+							<b>Backend</b>: Fixat trasig authentication genom att authenticate
+							med endast Bearer-token. Responses för varje endpoint,
+							implementerat alla helper metoder för User när man använder
+							databasen. Skrivit DB tester också.<br />
+							<b>AI</b>: Fixat bugs, ingen annan utveckling. <br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 3</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Redovisa projektet för “nya chefen”.<br />
+							<b>Frontend</b>: Göra klart analys av bilder genom att använda en
+							mockad endpoint. Ta in en annan person utanför frontend för att
+							kolla igenom designen och ge feedback.<br />
+							<b>Backend</b>: Påbörja calls mot AI teamet för att kunna få ut
+							information om bilder. Fortsätta implementera endpoints mot
+							databasen. Fortsätta med databas-hjälp metoder.<br />
+							<b>AI</b>: Prio på att fixa controller-bug men försöka att få upp
+							en basic endpoint för analys av bilder.<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Redovisat delredovisning<br />
+							<b>Frontend</b>: Har implementerat en demo som tar en mockad fågel
+							från backenden och visar svar som precision och namn på fågeln man
+							satt in på hemsidan.<br />
+							<b>Backend</b>: Authentication med admin och vem som ska kunna
+							uppdatera/ta bort vad. Validering av input parametrar. Utvidga
+							helper metoder för att innefatta de andra delarna som inte är
+							users. Skapa koppling mot AI som bör funka när AI teamet har fått
+							upp sina endpoints. Gjort mockat svar endpoint mot frontend.<br />
+							<b>AI</b>: Vi har suttit med ett till stort bug denna vecka, det
+							blir något fel med kommunikationen mellan AI controllern och
+							detection modulen. Har testat några små bugfixar men det är
+							fortfarande ett problem. Fixat docker compose som är mindre
+							resurskrävande.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+			</section>
 
-                    <b>Gemensamt</b>: Redovisa projektet för “nya chefen”.<br>
-                    <b>Frontend</b>: Göra klart analys av bilder genom att använda en mockad endpoint. Ta in en annan person utanför frontend för att kolla igenom designen och ge feedback.<br>
-                    <b>Backend</b>: Påbörja calls mot AI teamet för att kunna få ut information om bilder. Fortsätta implementera endpoints mot databasen. Fortsätta med databas-hjälp metoder.<br>
-                    <b>AI</b>: Prio på att fixa controller-bug men försöka att få upp en basic endpoint för analys av bilder.<br><br>
+			<section class="featured-posts" style="width: 100%">
+				<div class="section-title">
+					<h2><span>Sprint 1</span></h2>
+					<h1 class="card-title">Sprint 1</h1>
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Övergripande</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Frontend:</b> Frontend laget kommer fokusera på att integrera
+							med backend så tidigt som möjligt vilket innebär att support för
+							de första backend funktionerna kommer prioriteras. Två preliminära
+							konceptdesigner av hur frontenden kan se ut gjordes tidigare för
+							att låta gruppen gemensamt ge input på vilka funktioner kändes
+							viktiga/mindre viktiga. Med detta i åtanke kan vi skapa en
+							prioritetslista för arbetet inför kommande veckor.<br />
+							<b>Backend:</b> Vi som jobbar med backend har ett mål att kunna
+							sätta ihop vårt projekt med frontend så fort som möjligt. Detta är
+							därför att vi vill att båda teamen har samma vision på hur
+							produkten kommer att fungera och vilka endpoints som ska användas
+							och vad de gör. Därför kommer dessa tre veckor att fokusera på att
+							göra en minimal working product som kan prata med frontend och
+							skicka tillbaka relevant data. Många av delarna som vi påbörjar i
+							vecka 1 kommer att fortsätta till vecka 3 för att de är stora
+							komponenter.<br />
+							<b>AI:</b> Under sprint 1 kommer fokus ligga på att etablera två
+							stadiga dataset som är lämpliga för respektive ljud och bilder.
+							Det ligger stor vikt på att hitta två bra dataset både för att vår
+							träningsdata kommer vara en stor faktor av de resultat vi kommer
+							få ut i slutet samt att ett byte av dataset långt in i projektet
+							kan orsaka problem och leder till tappad tid. Under första
+							sprinten är det även stor fokus på både förståelse och fördjupning
+							i de olika strategierna vi kan använda oss av inom AI såsom olika
+							preprocessing metoder och modeller.
+							<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							Denna sprint har vi jobbat mycket med plannering av projektet
+							medan all utveckling som gjorts har varit en bonus då vi inte
+							planerade att komma långt i vår planering.<br /><br />
 
-                    <b>Utfört</b><br><br>
+							Vi lyckats göra en grundlig version av backend som kan spara och
+							skapa users, startat på funktioner i frontend samt lyckats
+							identifiera fåglar i AI delen.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 1</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Planerat teambuilding: käka middag och bowla
+							samt umgänge efter<br />
+							<b>Frontend</b>: Bli bekväm med de verktyg som planeras att
+							användas samt skapa en gemensam design på användarinterfacen för
+							en mvp.<br />
+							<b>Backend</b>: Göra research om de olika teknologierna som ska
+							användas: Go, Swagger, Auth0 och MongoDB. Börja sätta upp handlers
+							och en databas.<br />
+							<b>AI</b>: Hitta lämpliga dataset som passar till projektet, kika
+							på modeller och tekniker som finns.<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Presenterat projektplan för klassen samt haft
+							teambuilding<br />
+							<b>Frontend</b>: Skapat gemensam skiss utöver applikationen.<br />
+							<b>Backend</b>: Gjort research om Go, Swagger, Auth0 och MongoDB.
+							Bestämt endpoints mot frontend samt gjort ett utkast på DB
+							diagram.<br />
+							<b>AI</b>: Uppsökning av lämpligt dataset, kollat på olika
+							modeller som redan finns.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 2</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Gruppmöte med läraren<br />
+							<b>Frontend</b>: Börja skapa sidor för en minimal viable product;
+							login, ladda upp bilder, 2 bibliotek pages<br />
+							<b>Backend</b>: Börja sätta upp handlers och databas<br />
+							<b>AI</b>: Bestämma datasett, börja på en modell<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Gruppmöte med läraren<br />
+							<b>Frontend</b>: Login med Google fungerar (inte kopplad till
+							backend än). Sidan för att ladda upp media är designad.<br />
+							<b>Backend</b>: Kom igång med docker, handlers, mongoDB och
+							swagger. Databasstrukturen är klar, docker setup är klart, swagger
+							finns och diskuterat med frontend om hur login ska fungera.<br />
+							<b>AI</b>: Två teams på 2 pers, två olika modeller.<br />
+							Del 1: image detection - hitta fågeln i bilden och klippa ut
+							den<br />
+							Del 2: image classification - känna igen vilken fågel, 95%
+							accuracy<br />
+							Fått tillgång till kluster, mycket snabbare än privata datorer<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
 
-                    <b>Gemensamt</b>: Redovisat delredovisning<br>
-                    <b>Frontend</b>: Har implementerat en demo som tar en mockad fågel från backenden och visar svar som precision och namn på fågeln man satt in på hemsidan.<br>
-                    <b>Backend</b>: Authentication med admin och vem som ska kunna uppdatera/ta bort vad. Validering av input parametrar. Utvidga helper metoder för att innefatta de andra delarna som inte är users. Skapa koppling mot AI som bör funka när AI teamet har fått upp sina endpoints. Gjort mockat svar endpoint mot frontend.<br>
-                    <b>AI</b>: Vi har suttit med ett till stort bug denna vecka, det blir något fel med kommunikationen mellan AI controllern och detection modulen. Har testat några små bugfixar men det är fortfarande ett problem. Fixat docker compose som är mindre resurskrävande.<br>
-                </h4>
-            </div>
-            <!-- end post -->
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 3</h2>
+						<h5 class="card-text">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Skrivit ihop en pitch och beskrivning av
+							projektet samt förberett en presentation för klassen.<br />
+							<b>Frontend</b>: Få kontakt med backend, arbeta med bibliotek.<br />
+							<b>Backend</b>: Implementerad databas man kan pinga till,
+							fortsätta med endpoints i swagger, få kontakt med frontend.<br />
+							<b>AI</b>: Sätta ihop de två modulerna, fixa buggar.<br />
+						</h4>
+						<h5 class="card-text">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>: Skrivit ihop en pitch och beskrivning av
+							projektet samt förberett en presentation för klassen.<br />
+							<b>Frontend</b>: Jobbat på bibliotekssidan som visar alla arter
+							samt profilsida på vald fågel. Har också börjat jobba med data
+							från backend. Vi har också jobbat med meny-bar som ska finnas på
+							alla sidor för att navigera runt på hemsidan.<br />
+							<b>Backend</b>: Vi har gjort klart en mockad version av databasen
+							på deras interface. Gjort fungerande endpoints för users som
+							frontend kan använda sig av samt börjat definiera vilken respons
+							som ska finnas. Själva strukturen på hur databasen ska fungera har
+							slutförts och jobb på att implementera den riktiga databasen har
+							påbörjats.<br />
+							<b>AI</b>: Jobbat med skala på foton samt kollat ut en svensk
+							fågelorganisation som kan ha bilder på svenska fåglar. Har också
+							jobbat med padding på bilder som hade buggar, detta är löst.
+							Resizing och cropping är också klart. Har även utfört manuella
+							test som gick bra, inte hunnit sätta ihop båda delarna helt.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+			</section>
 
-        </div>
+			<section class="featured-posts" style="width: 100%">
+				<div class="section-title">
+					<h2><span>Sprint 0</span></h2>
+					<h1 class="card-title">Sprint 0</h1>
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 0</h2>
+						<h4 class="card-text">
+							Blivit tilldelade projekt samt första mötet med gruppen. Gjort
+							spelregler, delat upp projektet i team, bestämt projektmål, etc.
+							Skriver projektplan och egen definition av arbetet, skapat skisser
+							över programmet, samt gjort en presentation.<br /><br />
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+			</section>
 
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 2</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
-
-                    <b>Gemensamt</b>: Enskilt möte med läraren, skriva delredovisning.<br>
-                    <b>Frontend</b>: Finslipa designen mellan sidorna för att skapa en mer enhetlig design.<br>
-                    <b>Backend</b>: Implementera media analys endpoints, göra dataset för fåglar, skriva media controller. Påbörja kommunikation mot AI teamet.<br>
-                    <b>AI</b>: Arbeta på controllern för kommunikation med backend. <br><br>
-
-                    <b>Utfört</b><br><br>
-
-                    <b>Gemensamt</b>: Enskilt möte med läraren, skriva delredovisning.<br>
-                    <b>Frontend</b>: Fixat en sida innan loginsidan som beskriver vad projektet är. Finslipat designen på bibliotekssidan och fåglarna.<br>
-                    <b>Backend</b>: Fixat trasig authentication genom att authenticate med endast Bearer-token. Responses för varje endpoint, implementerat alla helper metoder för User när man använder databasen. Skrivit DB tester också.<br>
-                    <b>AI</b>: Fixat bugs, ingen annan utveckling. <br>
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 1</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
-
-                    <b>Gemensamt</b>: Förbereda inför möte 10/10.<br>
-                    <b>Frontend</b>: Uppladdningsprocessen för bilder, etablera en http koppling mot backend. Möjligtvis börja med user page.<br>
-                    <b>Backend</b>: Göra klar en lätt authentication, implementera riktiga databasen och fortsätta med endpoints samt responses.<br>
-                    <b>AI</b>: Sätta ihop modellerna, fortsätta leta efter svenska fågelorganisationer.<br><br>
-
-                    <b>Utfört</b><br><br>
-
-                    <b>Gemensamt</b>: Gått igenom hur endpoints för AI-backend skulle se ut och vilken information som AI-teamet kan skicka tillbaka och vilken information frontend vill presentera. Vi har också haft presentation av projektet på måndagen.<br>
-                    <b>Frontend</b>: Fixa alla sidor för MVP finns fast inte implementerade. Hållit på med connection mot backend men har varit problem med JWT. Vi har också jobbat för att göra front-end mer dynamisk.<br>
-                    <b>Backend</b>: Implementerat klart interface för databasen och påbörjat med att göra repository för users. Vi har också implementerat authentication med JWT som kommer göra att requests mot backend måste innehålla en säkerhetsnyckel.<br>
-                    <b>AI</b>: Merga ihop modellerna genom att kunna kommunicera genom containrar. Svaren är dock inte riktigt klara än men ska bara ta nån dag att fixa. Har mailat till olika fågelorganisationer för att få mer data på svenska fåglar. <br>
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-    </section>
-
-
-    <section class="featured-posts" style="width: 100%">
-        <div class="section-title">
-            <h2><span>Sprint 1</span></h2>
-            <h4 class="sitetitle">Övergripande</h4>
-            <h6 class="card-text" style="margin: 10px">
-                Denna sprint har vi jobbat mycket med plannering av projektet medan all utveckling som gjorts har varit en bonus då vi inte planerade att komma långt i vår planering.<br><br>
-
-                Vi lyckats göra en grundlig version av backend som kan spara och skapa users, startat på funktioner i frontend samt lyckats identifiera fåglar i AI delen.
-
-            </h6>
-        </div>
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 3</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
-
-                    <b>Gemensamt</b>: Skrivit ihop en pitch och beskrivning av projektet samt förberett en presentation för klassen.<br>
-                    <b>Frontend</b>: Få kontakt med backend, arbeta med bibliotek.<br>
-                    <b>Backend</b>: Implementerad databas man kan pinga till, fortsätta med endpoints i swagger, få kontakt med frontend.<br>
-                    <b>AI</b>: Sätta ihop de två modulerna, fixa buggar.<br><br>
-
-                    <b>Utfört</b><br><br>
-
-                    <b>Gemensamt</b>: Skrivit ihop en pitch och beskrivning av projektet samt förberett en presentation för klassen.<br>
-                    <b>Frontend</b>: Jobbat på bibliotekssidan som visar alla arter samt profilsida på vald fågel. Har också börjat jobba med data från backend. Vi har också jobbat med meny-bar som ska finnas på alla sidor för att navigera runt på hemsidan.<br>
-                    <b>Backend</b>: Vi har gjort klart en mockad version av databasen på deras interface. Gjort fungerande endpoints för users som frontend kan använda sig av samt börjat definiera vilken respons som ska finnas. Själva strukturen på hur databasen ska fungera har slutförts och jobb på att implementera den riktiga databasen har påbörjats.<br>
-                    <b>AI</b>: Jobbat med skala på foton samt kollat ut en svensk fågelorganisation som kan ha bilder på svenska fåglar. Har också jobbat med padding på bilder som hade buggar, detta är löst. Resizing och cropping är också klart. Har även utfört manuella test som gick bra, inte hunnit sätta ihop båda delarna helt.<br>
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 2</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
-
-                    <b>Gemensamt</b>: Gruppmöte med läraren<br>
-                    <b>Frontend</b>: Börja skapa sidor för en minimal viable product; login, ladda upp bilder, 2 bibliotek pages<br>
-                    <b>Backend</b>: Börja sätta upp handlers och databas<br>
-                    <b>AI</b>: Bestämma datasett, börja på en modell<br><br>
-
-                    <b>Utfört</b><br><br>
-
-                    <b>Gemensamt</b>: Gruppmöte med läraren<br>
-                    <b>Frontend</b>: Login med Google fungerar (inte kopplad till backend än). Sidan för att ladda upp media är designad.<br>
-                    <b>Backend</b>: Kom igång med docker, handlers, mongoDB och swagger. Databasstrukturen är klar, docker setup är klart, swagger finns och diskuterat med frontend om hur login ska fungera.<br>
-                    <b>AI</b>: Två teams på 2 pers, två olika modeller.<br>
-                    Del 1: image detection - hitta fågeln i bilden och klippa ut den<br>
-                    Del 2: image classification - känna igen vilken fågel, 95% accuracy<br>
-                    Fått tillgång till kluster, mycket snabbare än privata datorer<br>
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 1</h2>
-                <h4 class="card-text" style="margin: 10px">
-                    <b>Planerat</b>: <br><br>
-
-                    <b>Gemensamt</b>: Planerat teambuilding: käka middag och bowla samt umgänge efter<br>
-                    <b>Frontend</b>: Bli bekväm med de verktyg som planeras att användas samt skapa en gemensam design på användarinterfacen för en mvp.<br>
-                    <b>Backend</b>: Göra research om de olika teknologierna som ska användas: Go, Swagger, Auth0 och MongoDB. Börja sätta upp handlers och en databas.<br>
-                    <b>AI</b>: Hitta lämpliga dataset som passar till projektet, kika på modeller och tekniker som finns.<br><br>
-
-                    <b>Utfört</b><br><br>
-
-                    <b>Gemensamt</b>: Presenterat projektplan för klassen samt haft teambuilding<br>
-                    <b>Frontend</b>: Skapat gemensam skiss utöver applikationen.<br>
-                    <b>Backend</b>: Gjort research om Go, Swagger, Auth0 och MongoDB. Bestämt endpoints mot frontend samt gjort ett utkast på DB diagram.<br>
-                    <b>AI</b>: Uppsökning av lämpligt dataset, kollat på olika modeller som redan finns.<br>
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-
-        <div class="listfeaturedtag">
-
-            <!-- begin post -->
-            <div class="card" style="background-color: #e2e2e2; height: auto">
-                <h2 class="card-title" style="margin: 10px">Week 0</h2>
-                <h4 class="card-text" style="margin: 10px">Blivit tilldelade projekt samt första mötet med gruppen. Gjort spelregler, delat upp projektet i team, bestämt projektmål, etc.
-                    Skriver projektplan och egen definition av arbetet, skapat skisser över programmet, samt gjort en presentation.
-                </h4>
-            </div>
-            <!-- end post -->
-
-        </div>
-    </section>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-</div>
-</body>
+			<script src="assets/js/jquery.min.js"></script>
+			<script
+				src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+				integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+				crossorigin="anonymous"
+			></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+		</div>
+	</body>
 </html>
