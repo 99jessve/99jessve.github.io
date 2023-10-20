@@ -32,9 +32,59 @@
             <h2><span>Sprint 2</span></h2>
             <h4 class="sitetitle">Övergripande</h4>
             <h6 class="card-text" style="margin: 10px">
-                ---------------------------------
+                Slutfört databasen med bara några små helper metoder som är kvar att implementera. Skapat koppling mellan frontend och backend. Gjort klart authentication i backend. Lyckats kommunicera mellan AI delar med hjälp av en controller som pratar med detection och classification.
             </h6>
         </div>
+        <div class="listfeaturedtag">
+
+            <!-- begin post -->
+            <div class="card" style="background-color: #e2e2e2; height: auto">
+                <h2 class="card-title" style="margin: 10px">Week 3</h2>
+                <h4 class="card-text" style="margin: 10px">
+                    <b>Planerat</b>: <br><br>
+
+                    <b>Gemensamt</b>: Redovisa projektet för “nya chefen”.<br>
+                    <b>Frontend</b>: Göra klart analys av bilder genom att använda en mockad endpoint. Ta in en annan person utanför frontend för att kolla igenom designen och ge feedback.<br>
+                    <b>Backend</b>: Påbörja calls mot AI teamet för att kunna få ut information om bilder. Fortsätta implementera endpoints mot databasen. Fortsätta med databas-hjälp metoder.<br>
+                    <b>AI</b>: Prio på att fixa controller-bug men försöka att få upp en basic endpoint för analys av bilder.<br><br>
+
+                    <b>Utfört</b><br><br>
+
+                    <b>Gemensamt</b>: Redovisat delredovisning<br>
+                    <b>Frontend</b>: Har implementerat en demo som tar en mockad fågel från backenden och visar svar som precision och namn på fågeln man satt in på hemsidan.<br>
+                    <b>Backend</b>: Authentication med admin och vem som ska kunna uppdatera/ta bort vad. Validering av input parametrar. Utvidga helper metoder för att innefatta de andra delarna som inte är users. Skapa koppling mot AI som bör funka när AI teamet har fått upp sina endpoints. Gjort mockat svar endpoint mot frontend.<br>
+                    <b>AI</b>: Vi har suttit med ett till stort bug denna vecka, det blir något fel med kommunikationen mellan AI controllern och detection modulen. Har testat några små bugfixar men det är fortfarande ett problem. Fixat docker compose som är mindre resurskrävande.<br>
+                </h4>
+            </div>
+            <!-- end post -->
+
+        </div>
+
+        <div class="listfeaturedtag">
+
+            <!-- begin post -->
+            <div class="card" style="background-color: #e2e2e2; height: auto">
+                <h2 class="card-title" style="margin: 10px">Week 2</h2>
+                <h4 class="card-text" style="margin: 10px">
+                    <b>Planerat</b>: <br><br>
+
+                    <b>Gemensamt</b>: Enskilt möte med läraren, skriva delredovisning.<br>
+                    <b>Frontend</b>: Finslipa designen mellan sidorna för att skapa en mer enhetlig design.<br>
+                    <b>Backend</b>: Implementera media analys endpoints, göra dataset för fåglar, skriva media controller. Påbörja kommunikation mot AI teamet.<br>
+                    <b>AI</b>: Arbeta på controllern för kommunikation med backend. <br><br>
+
+                    <b>Utfört</b><br><br>
+
+                    <b>Gemensamt</b>: Enskilt möte med läraren, skriva delredovisning.<br>
+                    <b>Frontend</b>: Fixat en sida innan loginsidan som beskriver vad projektet är. Finslipat designen på bibliotekssidan och fåglarna.<br>
+                    <b>Backend</b>: Fixat trasig authentication genom att authenticate med endast Bearer-token. Responses för varje endpoint, implementerat alla helper metoder för User när man använder databasen. Skrivit DB tester också.<br>
+                    <b>AI</b>: Fixat bugs, ingen annan utveckling. <br>
+                </h4>
+            </div>
+            <!-- end post -->
+
+        </div>
+
         <div class="listfeaturedtag">
 
             <!-- begin post -->
