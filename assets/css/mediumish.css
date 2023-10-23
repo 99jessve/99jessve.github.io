@@ -6,6 +6,9 @@ License: https://www.wowthemes.net/freebies-license/
 */
 body {
 	padding-top: 5rem;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 .mainheading {
 	padding: 1rem 0rem;
@@ -124,8 +127,8 @@ section {
 }
 .listfeaturedtag h2.card-title,
 .listrecent h2.card-title {
-	font-size: 1.3rem;
-	font-weight: 700;
+	font-size: 1.7rem;
+	font-weight: 650;
 	line-height: 1.25;
 	margin: 10px;
 }
@@ -133,13 +136,23 @@ section {
 .listrecent h2.card-title a {
 	color: rgba(0, 0, 0, 0.8);
 }
-.listfeaturedtag h2.card-title a:hover,
-.listrecent h2.card-title a:hover {
-	color: rgba(0, 0, 0, 0.6);
-	text-decoration: none;
+
+.listfeaturedtag h5.card-subtitle {
+	font-size: 1.3rem;
+	font-weight: 600;
+	line-height: 1.4;
+	margin: 10px;
+	margin-left: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.44);
 }
+
 .card-text {
 	margin: 10px;
+	margin-left: 30px;
+}
+
+.card-text p {
+	margin-left: 30px;
 }
 .listfeaturedtag h4.card-text,
 .listrecent h4.card-text {
@@ -148,6 +161,7 @@ section {
 	line-height: 1.4;
 	font-weight: 400;
 }
+
 .listfeaturedtag .wrapfooter {
 	position: absolute;
 	bottom: 20px;
@@ -511,4 +525,10 @@ ul.tags li a:hover {
 	line-height: 22px;
 	border-radius: 50%;
 	font-size: 12px;
+}
+
+footer {
+	padding: 40px 0;
+	text-align: center;
+	margin-top: auto 0;
 }
