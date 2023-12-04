@@ -142,7 +142,75 @@
 							</p>
 						</h4>
 						<h5 class="card-subtitle">Utfört</h5>
-						<h4 class="card-text">TBD<br /><br /></h4>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p>
+								Vi har arbetat mot att implementera och
+								publicera en färdig version. En publicering av
+								produkten gjordes vecka två i sprinten men den
+								slutliga publiceringen har skutits upp för att
+								teamtet ska kunna lösa de sista buggarna.
+							</p>
+							<b>Frontend Team</b>
+							<p>
+								Frontend-teamet har prioriterat enhetlighet i
+								gränssnittsdesignen och implementerat nya
+								funktioner för ljudöverföring till backend för
+								analys. Vi strävar nu mot att fullborda den
+								slutgiltiga designen för alla sidor och arbetar
+								samtidigt på att förbättra
+								autentiseringsmekanismen för administratörer och
+								användare. På informationsfronten har vi
+								framgångsrikt implementerat behörighetshantering
+								för administratörer och implementerat
+								informationshämtning från Wikipedia. Vår strävan
+								efter en bättre användarupplevelse har också
+								lett till mobilanpassning av samtliga sidor och
+								inkluderande av ljudfunktioner på vår
+								species-sida för ökad interaktivitet. Vi arbetar
+								oavbrutet med att förbättra och testa våra nya
+								funktioner för att säkerställa en optimal
+								användarupplevelse och funktionalitet inom
+								projektet.
+							</p>
+							<b>Backend Team</b>
+							<p>
+								Vi har effektivt integrerat alla fågelarter i
+								backenden tillsammans med bilder, ljudfiler och
+								beskrivningar. Bilderna och beskrivningarna tas
+								från Wikipedia för att säkerghetsställa en
+								enhetlig information. Enhetsprovningen är
+								slutförd, vilket underlättar arbetet drastiskt.
+								Vi har implementerat noggrannhet och
+								kommentarstöd för posts samt en ny endpoint för
+								att spåra användares identifierade fåglar. Inom
+								backend-teamet har vi deployat Docker på en
+								dedikerad server. Teamet arbetar med at bearbeta
+								ljudfilerna från frontned innan de skickas till
+								AI-modulen. Fågelarter har även inkluderats in
+								listan på fåglar då analysering av ljud
+								returnerar en art inställer för en specifik
+								fågel. Vi har också implementerat en sökfunktion
+								för användare, fåglar och publicerade posts.
+							</p>
+							<b>AI Team</b>
+							<p>
+								Inom AI-teamet har vi slutfört vårt MVP och
+								implementerat ljudmodellen i vår AI Controller.
+								Vi har utforskat olika ljudmodeller, inklusive
+								Llama, men har ännu inte funnit en bättre
+								alternativmodell. För att implementera
+								ljudmodellen har vi uppdaterat vår controller
+								och skapat en ny modul för dess körning. Vi
+								strävar efter att optimera vår träningsprocess
+								och har utökat vårt kluster för att kunna göra
+								detta. Dessutom har vi förbättrat ljudmodellen
+								för att öka dess prestanda. Inom bildigenkänning
+								returnerar nu vår AI-modul de tre bästa
+								identifierade "klasserna" tillsammans med deras
+								respektive noggrannhetsnivåer.
+							</p>
+						</h4>
 					</div>
 					<!-- end post -->
 				</div>
@@ -378,13 +446,56 @@
 						<h5 class="card-subtitle">Utfört</h5>
 						<h4 class="card-text">
 							<b>Gemensamt</b>
-							<p></p>
+							<p>
+								Vi tog initiativ till att kontakta en
+								fågelexpert via e-post, men tyvärr har vi ännu
+								inte fått något svar. Samtidigt har vi aktivt
+								uppdaterat vår blogg för att hålla intressenter
+								uppdaterade om våra framsteg och förändringar.
+							</p>
 							<b>Frontend Team</b>
-							<p></p>
+							<p>
+								Vi har koncentrerat oss på att integrera
+								ändringar som innefattar användningen av
+								Wikipedia API och implementeringen av ljudfiler
+								i databasen, vilket kräver samarbete med
+								backend-teamet. Vi har också arbetat med att
+								införa funktionalitet för att kunna inkludera
+								accuracy och kommentarer i våra posts. Vidare
+								har vi utvecklat en fungerande ljudredigerare
+								som tillåter användare att välja specifika
+								ljudintervall som ska skickas till backenden.
+								Frontent tar nu in judklipp som är circa 10
+								sekunder långa.
+							</p>
 							<b>Backend Team</b>
-							<p></p>
+							<p>
+								Vi har framgångsrikt implementerat
+								ljudfunktionaliteten i vårt backend-system så
+								att det nu är möjligt att skicka in MP3- eller
+								WAV-filer för korrekt klippning eller
+								förlängning. Dessutom har vi slutfört skripten
+								för att hämta information från Wikipedia samt
+								ljudfiler för alla fågelarter som ska integreras
+								i backenden. Som ett led i detta har vi tagit
+								bort alla tidigare bilder på fåglarna från vår
+								databas och istället använder vi Wikipedia som
+								källa. Vi har även arbetat på att förbättra
+								sökfunktionen och implementerat en fungerande
+								sökfunktion för namn på fåglar, använarnamn på
+								användare samt plats och kommentarer för posts.
+							</p>
 							<b>AI Team</b>
-							<p></p>
+							<p>
+								Vi har utforskat och testat andra modeller för
+								ljud, men har ännu inte hittat något som ger
+								bättre resultat än vår nuvarande modell. Inom
+								bildigenkänning skickar nu vår AI-modul tillbaka
+								de tre bästa identifierade "klasserna" - det
+								vill säga de arter som systemet tror att bilden
+								föreställer - tillsammans med varje klas
+								noggrannhetsgrad.
+							</p>
 						</h4>
 					</div>
 					<!-- end post -->
