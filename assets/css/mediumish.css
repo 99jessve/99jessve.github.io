@@ -532,3 +532,23 @@ footer {
 	text-align: center;
 	margin-top: auto 0;
 }
+
+.text-with-logo {
+	display: flex;
+	align-items: center;
+}
+
+.text-content {
+	flex: 1;
+	/* Additional styles for text content */
+}
+
+.logo {
+	margin-left: 20px; /* Adjust this margin as needed */
+	/* Additional styles for the logo container */
+}
+
+.logo img {
+	max-width: 320px; /* Adjust the maximum width of the logo */
+	/* Additional styles for the logo image */
+}
