@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section");
 
   // Set the default section and link
-  const defaultSectionId = "sprint4"; // Change this to match the desired default section's ID
+  const defaultSectionId = "sprint5"; // Change this to match the desired default section's ID
   const defaultSection = document.getElementById(defaultSectionId);
 
   // Show the default section and add "active" class to its corresponding link

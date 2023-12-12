@@ -73,10 +73,284 @@
 									<h2><span>Sprint 4</span></h2>
 								</a>
 							</li>
+							<li>
+								<a href="#sprint5">
+									<h2><span>Sprint 5</span></h2>
+								</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
 			</header>
+
+			<section id="sprint4" class="featured-posts" style="width: 100%">
+				<div class="section-title">
+					<h1 class="card-title">Sprint 5</h1>
+				</div>
+
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Övergripande</h2>
+						<h5 class="card-subtitle">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p>
+								Denna sprint är till för att lösa de sista
+								buggarna, stresstesta systemet och förbereda
+								kursens slutredovisning. Systemet ska få en
+								slutlig deploy och den slutlig version ska
+								publiceras.
+							</p>
+							<b>Frontend Team</b>
+							<p>
+								Vi ska implementerar laddningsanimation på
+								bibliotekssidan och planerar inloggning med
+								cookies för smidigare användning. Skalningen av
+								bilder på sidorna för arter och bibliotek
+								förbättras för enhetligare visning. Söksystemet
+								ska uppdateras för en effektivare
+								databashantering. Fokus ligger på att slutföra
+								ljudfunktionalitet och dokumentera tekniska
+								beslut.
+							</p>
+							<b>Backend Team</b>
+							<p>
+								Vi ska jobba med att integrera
+								ljudfunktionaliteten i backenden och undersöker
+								hälsokontroller mot databasen för att lösa
+								kopplingsproblemen vid deployment.
+								Implementeringen av sökfunktionen är
+								prioriterad, liksom avslutningen av alla
+								enhetstester. Vi utforskar bildkomprimering för
+								bättre databashantering.
+							</p>
+							<b>AI Team</b>
+							<p>
+								Vi ska testa olika bildtyper för att förbättra
+								bildigenkänningsmodellen. Testerna inkluderar
+								variationer i bildstorlek, kvalitet och
+								närvaro/avsaknad av fåglar. Vi fortsätter att
+								optimera ljudigenkänningsmodellen och
+								dokumenterar processen noggrant.
+							</p>
+						</h4>
+						<h5 class="card-subtitle">Utfört</h5>
+						<h4 class="card-text">
+							TBD
+							<!--
+							<b>Gemensamt</b>
+							<p></p>
+							<b>Frontend Team</b>
+							<p></p>
+							<b>Backend Team</b>
+							<p></p>
+							<b>AI Team</b>
+							<p></p>
+							-->
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 1</h2>
+						<h5 class="card-subtitle">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p>
+								Vi ska gemensamt påbörja slutrapoorten samt
+								slutredovisningen för kursen. De som könner att
+								de inte har tillräckligt att göra med sina delar
+								arbetar med redovisningen.
+							</p>
+							<b>Frontend Team</b>
+							<p>
+								Vi planerar att implementera en
+								laddningsanimation för bibliotekssidan och
+								optimera inloggningsfunktionaliteten med
+								cookies. Arbetet inkluderar att justera
+								kortstorleken för bättre enhetlighet på arter
+								och bibliotekssidan. Dessutom siktar vi på att
+								migrera till den nya backend-sökfunktionen för
+								effektivare användning och slutföra
+								ljudfunktionaliteten. Vi kommer att utforska
+								möjligheten att lägga till teknisk dokumentation
+								och testa bildanalysfunktionen direkt i
+								webbappen.
+							</p>
+							<b>Backend Team</b>
+							<p>
+								Vårt fokus ligger på att integrera
+								ljudfunktionalitet i backenden och implementera
+								hälsokontroller för att hantera eventuella
+								kopplingsproblem vid deployment. Vi strävar
+								efter att färdigställa sökfunktionaliteten och
+								genomföra enhetstester. Dessutom utforskar vi
+								alternativ för bildkomprimering för bättre
+								prestanda.
+							</p>
+							<b>AI Team</b>
+							<p>
+								Vi planerar att genomföra en omfattande serie
+								tester för bildigenkänning, inklusive varierande
+								bildstorlekar och kvalitet samt olika scenarier
+								som frånvaro eller närvaro av fåglar. Vi
+								fortsätter att optimera ljudigenkänningsmodellen
+								och dokumenterar kontinuerligt våra framsteg för
+								en mer transparent process.
+							</p>
+						</h4>
+						<h5 class="card-subtitle">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p>
+								Vi har uppdaterat vår blogg för att hålla
+								intressenter informerade och skapat dokument för
+								den slutliga rapporten samt redovisningen.
+							</p>
+							<b>Frontend Team</b>
+							<p>
+								Vi har gjort flera förbättringar på vår
+								frontend, inklusive fixering av
+								currentpage-funktionen på library-sidan och
+								spårning av användarens plats när de bläddrar
+								bland fåglar. Dessutom har vi implementerat
+								bildkomprimering innan den skickas till backend.
+								Alla filter på bibliotekssidan är nu
+								implementerade. Vi har satt en gräns för bilder
+								på 15 MB som kan skickas till backenden,
+								eftersom det är det största som vår MongoDB kan
+								hantera. Slutligen har vi integrerat
+								ljudfunktionalitet så att användaren kan välja
+								vilket ljudintervall som ska skickas till
+								backend.
+							</p>
+							<b>Backend Team</b>
+							<p>
+								Vi har framgångsrikt implementerat ljudmodulen
+								så att den kan ta emot ljud från frontend. För
+								att säkerställa stabiliteten har vi inkluderat
+								hälsokontroller mot MongoDB, som tidigare
+								tappade anslutningen på deploy-servern efter
+								perioder av inaktivitet. Vi har också
+								finjusterat bildkomprimeringsfunktionen i
+								backenden för att ge korrekta svar vid
+								eventuella storleksproblem eller fel.
+							</p>
+							<b>AI Team</b>
+							<p>
+								Vi har rensat upp vår kodbas för att kunna ladda
+								upp den på driven och påbörjat omträningen av
+								ljudmodellen samt klassificeringen med bilder.
+								Vår bildigenkänningsmodell är nu lagrad på
+								driven och redo för vidareutveckling och
+								testning.
+							</p>
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- begin post -->
+					<div class="card">
+						<h2 class="card-title">Week 2</h2>
+						<h5 class="card-subtitle">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p>
+								Vi planerar att testa applikationen för att
+								identifiera och åtgärda eventuella buggar.
+								Dessutom arbetar vi på att skriva vår
+								presentation och rapport. Vi ska testa att
+								framföra redovisningen i sin helhet på frdag, i
+								den dedikerade salen. Vi vill meddela att vår
+								tidigare webbhostingleverantör, Ludd, för
+								närvarande inte är tillgänglig. För att hitta
+								alternativa lösningar och upprätthålla vår
+								webbplats och tjänster, planerar vi att kontakta
+								vår lärare för att undersöka andra
+								hosting-möjligheter som skolan kan erbjuda.
+								Denna veckan ska hi ha ett möte på onsdag, för
+								att stresstesta systemet och förbereda
+								redovisningen.
+							</p>
+							<b>Frontend Team</b>
+							<p>
+								Vi har identifierat att Google vill logga in med
+								pop-up även när användaren redan är inloggad,
+								detta arbetar vi på att årgärda denna vecka.
+								Vidare arbetar vi på att lösa problemet där
+								användaren inte kan gå tillbaka om analysen
+								misslyckas. Vi fokuserar också på att integrera
+								analysen av fåglar med den nya AI-strukturen,
+								vilket bör ge samma resultat som backenden, fast
+								för flera fåglar.
+							</p>
+							<b>Backend Team</b>
+							<p>
+								Vårt fokus ligger på att få backenden att ta
+								emot analyserade fåglar med den nya
+								AI-strukturen. Dessutom undersöker vi
+								möjligheter att förhindra att MongoDB blir tomt
+								efter att den har varit igång i 24 timmar.
+								Lösningen som gjordes förra veckan för detta
+								problem fungerade ej.
+							</p>
+							<b>AI Team</b>
+							<p>
+								Vi kommer att se över den nya bildmodellen för
+								att identifiera och eventuellt åtgärda
+								eventuella kvarvarande buggar. Dessutom planerar
+								vi att ladda upp den nya ljudmodellen för vidare
+								förbättringar och optimering.
+							</p>
+						</h4>
+						<h5 class="card-subtitle">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p></p>
+							<b>Frontend Team</b>
+							<p></p>
+							<b>Backend Team</b>
+							<p></p>
+							<b>AI Team</b>
+							<p></p>
+						</h4>
+					</div>
+					<!-- end post -->
+				</div>
+				<div class="listfeaturedtag">
+					<!-- 
+					<div class="card">
+						<h2 class="card-title">Week 3</h2>
+						<h5 class="card-subtitle">Planerat</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p></p>
+							<b>Frontend Team</b>
+							<p></p>
+							<b>Backend Team</b>
+							<p></p>
+							<b>AI Team</b>
+							<p></p>
+						</h4>
+						<h5 class="card-subtitle">Utfört</h5>
+						<h4 class="card-text">
+							<b>Gemensamt</b>
+							<p></p>
+							<b>Frontend Team</b>
+							<p></p>
+							<b>Backend Team</b>
+							<p></p>
+							<b>AI Team</b>
+							<p></p>
+						</h4>
+					</div>
+					end post -->
+				</div>
+			</section>
 
 			<section id="sprint4" class="featured-posts" style="width: 100%">
 				<div class="section-title">
